@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,500;1,100&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+}
+header {
+  justify-content: center;
+  margin-inline: 150px;
+}
+.nav {
+  display: block;
+  justify-content: space-between;
+  display: flex;
+
+  padding: 20px;
+}
+
+.nav-logo {
+  height: 80px;
+}
+.contact img {
+  width: 50px;
+  margin-right: 5px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  margin: 0px 100px;
+  display: block;
+  justify-content: center;
+}
+.menu-tabs ul {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+}
+.menu-tabs ul li a {
+  background-color: #9f2e59;
+  padding: 7px;
+  width: 100%;
+}
+.menu-tabs ul li a i {
+  width: 2px;
+  padding: 10px;
+}
+.menu-tabs ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 3px;
+  align-items: center;
+  position: relative;
+}
+.menu-tabs ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font: bold;
+}
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 50vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.row {
+  margin-top: 40px;
+}
+.row img {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+.contents {
+  position: absolute;
+  margin: 40px 50px;
+
+  padding: 80px 100px;
+}
+.content h1 {
+  font-size: 150px;
+  font-weight: bold;
+  color: #9f2e59;
+}
+.vision {
+  /* position: absolute; */
+  display: flex;
+  margin: 40px 50px;
+
+  padding: 80px 100px;
+}
+.vision img {
+  width: 50%;
+  padding-right: 50px;
+}
+.vision-desc h1 {
+  padding: 20px;
+  width: 50%;
+  font-weight: bold;
+  color: rgb(55, 175, 180);
+}
