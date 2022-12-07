@@ -43,7 +43,7 @@ header {
 }
 .menu-tabs ul li a i {
   width: 2px;
-  padding: 10px;
+  padding: 20px;
 }
 .menu-tabs ul li {
   list-style: none;
@@ -66,6 +66,7 @@ header {
   background-position: center;
   background-size: cover;
   position: relative;
+  display: column;
 }
 .row {
   margin-top: 40px;
@@ -83,25 +84,32 @@ header {
 
   padding: 80px 100px;
 }
-.content h1 {
-  font-size: 150px;
+.contents h1 {
+  font-size: 50px;
   font-weight: bold;
   color: #9f2e59;
 }
+.contents p {
+  font-size: 19px;
+}
 .vision {
-  /* position: absolute; */
+  position: absolute;
   display: flex;
-  margin: 40px 50px;
-
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
   padding: 80px 100px;
 }
 .vision img {
-  width: 50%;
+  height: 100%;
   padding-right: 50px;
 }
 .vision-desc h1 {
   padding: 20px;
-  width: 50%;
+  width: 100%;
   font-weight: bold;
   color: rgb(55, 175, 180);
 }
+/* .models {
+  width: 50%;
+} */
